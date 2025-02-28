@@ -1,0 +1,44 @@
+/* Reportcardstyle.css */
+
+/* Overall page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  
+  /* Container for the table – centers the table and applies a rounded, shadowed border */
+  #Table {
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures the rounded corners are maintained */
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures cells touch with no visible gaps */
+  }
+  
+  /* Table headers and cells */
+  th, td {
+    padding: 16px;          /* Makes cells slightly larger */
+    text-align: left;
+    border: none;           /* No cell borders */
+  }
+  
+  /* Optional header background (minimal style) */
+  thead th {
+    background-color: #f1f1f1;
+  }
+  
+  /* 
+    Note: 
+    The JavaScript will set an inline background-color on rows when they are clicked.
+    With border-collapse: collapse and no borders defined here, a highlighted row 
+    will appear as one continuous block of color without visible cell divisions.
+  */
+  
